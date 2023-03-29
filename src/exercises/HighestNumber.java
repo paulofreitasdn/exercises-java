@@ -10,10 +10,10 @@ public class HighestNumber {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("Enter a number:");
+        System.out.print("Enter a number: ");
         int number1 = scan.nextInt();
 
-        System.out.print("Enter another number:");
+        System.out.print("Enter another number: ");
         int number2 = scan.nextInt();
 
         int bigger = 0;
