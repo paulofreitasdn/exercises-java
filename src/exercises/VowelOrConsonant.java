@@ -6,6 +6,9 @@ public class VowelOrConsonant {
 
     public static void main(String[] args) {
 
+        /* Write a program that checks (using if and else) whether
+           typed letter is a vowel or a consonant. */
+
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter a letter:");
