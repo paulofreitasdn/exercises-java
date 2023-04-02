@@ -1,10 +1,12 @@
 package exercises;
 
 import java.util.Scanner;
+import java.util.Locale;
 
 public class Product {
     public static void main(String[] args) {
 
+        Locale.setDefault(Locale.US);
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter the value of the product: ");
