@@ -6,6 +6,9 @@ public class BiggerOrSmaller {
 
     public static void main(String[] args) {
 
+        /* Make a program that reads three numbers, checks (using if and else) and
+        prints the largest and smallest of them! */
+
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter a number:");
