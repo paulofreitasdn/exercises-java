@@ -18,7 +18,7 @@ public class Product {
         System.out.print("Enter the value of the other product: ");
         double product3 = scan.nextDouble();
 
-        double product = 0;
+        double product;
 
         if (product1 < product2 && product1 < product3) {
             product = product1;
