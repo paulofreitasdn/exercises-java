@@ -20,8 +20,8 @@ public class BiggerOrSmaller {
         System.out.print("Enter another number:");
         int number3 = scan.nextInt();
 
-        int bigger = 0;
-        int smaller = 0;
+        int bigger;
+        int smaller;
 
         if (number1 > number2 && number1 > number3) {
             bigger = number1;

@@ -7,10 +7,13 @@ public class StudySchedule {
     public static void main(String[] args) {
 
         /* Make a program that asks what shift you study.
-           If the user types "Morning","print Good morning",
-           if it is "Afternoon",print "Good Afternoon",
-           and if it is "Night",print "Good Night"..
+           If the user types "Morning", print Good morning!
+           otherwise it is "Afternoon", print Good Afternoon!
+           otherwise it is "Night", print Good Night.
+
+           if he enters a nonexistent shift, print invalid shift..
          */
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the shift you study:");
