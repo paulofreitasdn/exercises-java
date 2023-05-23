@@ -19,6 +19,7 @@ public class Percentage {
             double newSalary = (salary * increase) / 100;
             System.out.println("Your salary before the readjustment: " + salary);
             System.out.println("The percentage increase applied: " + increase);
+            System.out.println("Increase amount: " + newSalary);
             System.out.println("New Salary: " + (salary + newSalary));
 
         } else if (salary <= 700.00) {
@@ -27,6 +28,7 @@ public class Percentage {
             double newSalary = (salary * increase) / 100;
             System.out.println("Your salary before the readjustment: " + salary);
             System.out.println("The percentage increase applied: " + increase);
+            System.out.println("Increase amount: " + newSalary);
             System.out.println("New Salary: " + (salary + newSalary));
 
         } else if (salary <= 1500.00) {
@@ -35,6 +37,7 @@ public class Percentage {
             double newSalary = (salary * increase) / 100;
             System.out.println("Your salary before the readjustment: " + salary);
             System.out.println("The percentage increase applied: " + increase);
+            System.out.println("Increase amount: " + newSalary);
             System.out.println("New Salary: " + (salary + newSalary));
 
         } else {
@@ -43,6 +46,7 @@ public class Percentage {
             double newSalary = (salary * increase) / 100;
             System.out.println("Your salary before the readjustment: " + salary);
             System.out.println("The percentage increase applied: " + increase);
+            System.out.println("Increase amount: " + newSalary);
             System.out.println("New Salary: " + (salary + newSalary));
 
         }
