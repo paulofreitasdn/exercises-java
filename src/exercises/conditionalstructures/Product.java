@@ -6,6 +6,10 @@ import java.util.Locale;
 public class Product {
     public static void main(String[] args) {
 
+        /* Make a program that asks the price of three products and
+        tells you which product you should buy, knowing that the
+        decision is always the cheapest.
+         */
         Locale.setDefault(Locale.US);
         Scanner scan = new Scanner(System.in);
 
