@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Payroll {
     public static void main(String[] args) {
 
+        /* This program asks the user for the hourly rate and the number of hours worked in the month.
+        Then, it calculates the gross salary, the Income Tax (IR) discount, the INSS discount, the FGTS amount, the total discounts and the net salary.
+        Finally, it prints the information in the specified format.
+         */
         Scanner scan = new Scanner(System.in);
 
         System.out.print("Enter your hourly rate: ");
